@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color: #b8e994;
+}
+
+#header-sec{
+    padding: 10px;
+}
+
+#header-sec h1{
+    font-family: cursive;
+}
+
+input{
+ padding: 10px;
+ padding: auto;
+ border-radius: 10px;
+ border-color: blueviolet;
+}
+
+
+#dropbox{
+    padding: 10px;
+    border-radius: 10px;
+    width: 14.25%;
+    border-color: blueviolet;
+   border-width: 2px;
+}
+
+button{
+padding: 5px;
+font-size: 15px;
+background-color: #d4897c ;
+color: white;
+border-radius: 10px;
+}
+
+form{
+    justify-content: space-between;
+    padding: 50px; 
+ display: flexbox; 
+}
+
+h2{
+    padding-bottom: 25px;
+}
+
+#profile{
+    text-align:left;
+    margin-left:25px;
+    margin-top:25px;
+    background-color: solid white;
+  }  

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="style.css">
+    <title>Online Voting System-Registration</title>
+</head>
+<body>
+
+    <style>
+       
+       #Address{
+        width: 30%;
+        height: 70px;
+        border-color: blueviolet;
+        border-radius: 10px;
+        border-width: 2px;
+       }
+
+    #image{
+        border: solid black;
+        margin-left: 35%;
+        margin-right: 35%;
+        text-align:center;
+        padding: 10px;
+        border-radius: 10px;
+        border-color: blueviolet;
+        border-width: 2px;
+    }
+
+    #input{
+        border-radius: 10px;
+       border-color: blueviolet;
+       border-width: 2px;
+    }
+
+    #role{
+        border: solid black;
+        margin-left: 35%;
+        margin-right: 35%;
+       padding: 10px;
+       border-radius: 10px;
+       border-color: blueviolet;
+       border-width: 2px;
+    }
+
+    #role select{
+    
+       border-radius: 10px;
+       border-color: blueviolet;
+       border-width: 2px;
+    }
+
+    </style>
+
+    <h1>Online Voting System</h1>
+    <hr>
+
+    <form id="form-regis" action="register.php" method="POST" enctype="multipart/form-data">
+        <h3>Registeration</h3>
+        <input type="text" name="name" placeholder="Name">
+        <input type="number" name="voterid" placeholder="voterid"></input><br><br><br>
+        <input type="password" name="password" placeholder="Password"></input>
+        <input type="password" name="cpassword" placeholder="Confirm Password"></input><br><br><br>
+
+        <textarea  name="address" id="Address" type="text" placeholder="Address"></textarea><br><br>
+        
+        <br>
+        <div id="role">
+        Select role:<select name="role">
+        <option value="1">Voter</option>
+        <option value="2">Group</option>
+        </select>
+</div><br><br>        
+        <button  style="padding: 5px;
+        font-size: 15px;
+        background-color: #d4897c ;
+        color: white;
+        border-radius: 10px;">Register</button><br>
+
+        Already a user?<a href="index.html">Login here</a>
+    </form>
+</body>
+</html>
